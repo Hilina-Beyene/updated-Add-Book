@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Button layoutX="-148.0" layoutY="-147.0" mnemonicParsing="false" text="Checkout Book" />
+      <Button layoutX="-151.0" layoutY="-74.0" mnemonicParsing="false" text="List of members" />
+      <ImageView fitHeight="201.0" fitWidth="401.0" layoutX="-193.0" layoutY="-388.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Study%20Files/Eclipse_Workspace/LibrarySystem/src/main/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

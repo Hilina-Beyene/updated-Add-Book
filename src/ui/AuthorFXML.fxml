@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="820.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="business.controller.BookController">
+   <children>
+      <VBox prefHeight="607.0" prefWidth="496.0">
+         <children>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="496.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="198.0" text="First Name">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="firstNameField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="268.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="496.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="198.0" text="Last Name">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="lastNameField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="268.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="496.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="198.0" text="State">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="stateField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="268.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="496.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="198.0" text="City">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="cityField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="268.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="496.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="198.0" text="Zip">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="zipField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="268.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="496.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="198.0" text="Street">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="streetField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="268.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="496.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="198.0" text="Phone Number">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="phoneNumField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="268.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="496.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="198.0" text="Email">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="emailField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="268.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="491.0" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#bookInfoButton" prefHeight="30.0" prefWidth="82.0" text="Book Info">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#saveBookButton" prefHeight="30.0" prefWidth="82.0" text="Save Book">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#editBookButton" prefHeight="30.0" prefWidth="71.0" text="Edit Book">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#saveAuthorButton" prefHeight="30.0" prefWidth="91.0" text="Save Author">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#clearButton" prefHeight="30.0" prefWidth="74.0" text="Clear">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="496.0">
+               <children>
+                  <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#updateBookButton" prefHeight="30.0" prefWidth="58.0" text="Update">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Button>
+                  <TextField fx:id="searchField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="204.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="145.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button mnemonicParsing="false" onAction="#searchButton" prefHeight="30.0" prefWidth="64.0" text="Search">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="table" prefHeight="90.0" prefWidth="489.0">
+                     <columns>
+                        <TableColumn fx:id="titleView" prefWidth="75.0" text="Title" />
+                        <TableColumn fx:id="isbnView" prefWidth="75.0" text="ISNB" />
+                        <TableColumn fx:id="priceView" prefWidth="75.0" text="Price" />
+                        <TableColumn fx:id="authorFirstNameView" prefWidth="130.0" text="Author's First Name" />
+                        <TableColumn fx:id="authorLastNameView" prefWidth="120.0" text="Author's Last Name" />
+                     </columns>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TableView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutX="10.0" layoutY="607.0" prefHeight="188.0" prefWidth="476.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="268.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="150.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@../docs/logo.jpg" />
+               </image>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>

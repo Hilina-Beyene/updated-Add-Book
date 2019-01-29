@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+
+<AnchorPane prefHeight="277.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="55.0" layoutY="48.0" text="Username: ">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <PasswordField layoutX="191.0" layoutY="53.0" />
+      <TextField layoutX="194.0" layoutY="108.0" />
+      <Label id="password" layoutX="59.0" layoutY="112.0" text="Password:" textFill="WHITE" />
+      <Button layoutX="59.0" layoutY="199.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="283.0" text="Login" />
+   </children>
+   <padding>
+      <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+   </padding>
+</AnchorPane>
